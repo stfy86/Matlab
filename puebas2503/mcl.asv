@@ -1,0 +1,7 @@
+function f = mcl(I, ele, n, m, alfa)
+I = 
+a = uint8(alfa * FBright(I,ele,n,m));
+b = uint8(alfa * FDark(I,ele,n,m));
+f = uint8(I) + a - b;
+
+end

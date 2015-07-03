@@ -1,0 +1,10 @@
+clc;
+close all
+
+f = [0 1 0; 1 1 1; 0 1 0];
+ele = [0 1 0; 1 1 1; 0 1 0];
+g = dilateBinario(f, ele)
+
+r = g == 0 
+
+

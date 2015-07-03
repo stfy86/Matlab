@@ -1,0 +1,15 @@
+% Plot two objective functions on the same axis
+clc;
+close all
+x = -10:0.5:10;
+y = 0:0.0122:0.5;
+f1 = (x+2).^2 - 10 * y ;
+f2 = (x-2).^2 + 20  * y;
+plot(x,f1);
+hold on;
+plot(x,f2,'r');
+grid on;
+title('Plot of objectives ''(x+2)^2 - 10'' and ''(x-2)^2 + 20''');
+
+
+%%%%
